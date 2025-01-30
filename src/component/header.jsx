@@ -5,10 +5,10 @@ function Header() {
             <div className='text-3xl ml-24'>Uniqloth</div>
             <ul className='grid grid-cols-6 justify-items-center items-center'>
 
-                <a href="/"><li className='relative inline-block font-inherit text-[20px] no-underline mx-[3vw] 
+                <a href="/clothes-shop"><li className='relative inline-block font-inherit text-[20px] no-underline mx-[3vw] 
                 overflow-auto'>Home</li></a>
 
-                <a href="/mens"><li className='relative inline-block font-inherit text-[20px] no-underline mx-[3vw] 
+                <a href="/clothes-shop/mens"><li className='relative inline-block font-inherit text-[20px] no-underline mx-[3vw] 
                 overflow-auto after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] 
                 after:bg-white after:transition-all after:duration-300 hover:after:w-full'>Men</li></a>
 

@@ -2,10 +2,10 @@ import { useState,useEffect } from "react";
 
 function Advertise() {
     const images = [
-      "picture/image1.jpg",
-      "picture/image2.jpg",
-      "picture/image3.jpg",
-      "picture/image4.jpg",
+      "/clothes-shop/picture/image1.jpg",
+      "/clothes-shop/picture/image2.jpg",
+      "/clothes-shop/picture/image3.jpg",
+      "/clothes-shop/picture/image4.jpg",
     ];
   
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -31,8 +31,8 @@ function Advertise() {
     <>
       <div className="relative h-70vh mx-auto flex items-center justify-center bg-gray-100 lg:pt-24 pt-16">
         <video
-          src="video/test.mp4"
-          poster="video/test.mp4"
+          src="/clothes-shop/video/test.mp4"
+          poster="/clothes-shop/video/test.mp4"
           className="m-4 rounded-lg object-cover"
           autoPlay
           muted

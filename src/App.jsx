@@ -9,11 +9,11 @@ import CollectionPage from "./component/CollectionPage"
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/clothes-shop",
       element: <><Header/><Advertise/><Footer/></>
     },
     {
-      path: "/mens",
+      path: "/clothes-shop/mens",
       element: <><Header/><HamburgerMenu/><CollectionPage/><Mens/></>
     }
   ])
